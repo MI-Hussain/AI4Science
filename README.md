@@ -1,236 +1,144 @@
-AI for Science — Reading List & Survey Outline
+# AI for Science (AI4S) – Reading List & Survey Outline
 
-Curated, living resource – last updated: 17 July 2025
+> **Last updated:** 17 Jul 2025
+> Curated resources and draft outline for an upcoming **ACM Computing Surveys** paper on the landscape of *Artificial Intelligence for Science*.
 
-This repository collects foundational papers, reviews, datasets, software tools, and community links that underpin the rapidly‑growing field of AI for Science (AI4S). It doubles as the working material for an upcoming survey to be submitted to ACM Computing Surveys.
+## Table of Contents
 
-📑 Table of Contents
+1. [Survey Outline](#survey-outline)
+2. [Reading List](#reading-list)
 
-Proposed Survey Outline
+   1. [Road‑maps & Overviews](#1-road-maps--big-picture-overviews)
+   2. [Core Methodologies](#2-core-methodologies)
+   3. [Domain Breakthroughs](#3-domain-breakthroughs)
+   4. [Datasets & Benchmarks](#4-datasets--benchmarks)
+   5. [Software & Frameworks](#5-software--frameworks)
+   6. [Conferences & Community](#6-conferences-workshops--community)
+   7. [Staying Current](#7-how-to-stay-current)
+3. [Contributing](#contributing)
+4. [License](#license)
 
-1  Road‑maps & Big‑Picture Overviews
+---
 
-2  Core Methodologies
+## Survey Outline
 
-3  Domain Breakthroughs
+### 1 Generic AI for Science
 
-4  Datasets & Benchmarks
+Key cross‑domain methods and scientific‑agent paradigms:
 
-5  Software & Frameworks
+* Physics‑informed & knowledge‑guided learning
+* Geometric & equivariant deep learning
+* Neural operators & surrogate modeling
+* Foundation models & LLM agents for science
+* Automated experiment design & lab robotics
+* Benchmarks, evaluation & interpretability
 
-6  Conferences, Workshops & Community
+### 2 Domain‑Specific AI for Science
 
-7  How to Stay Current
+Application‑focused advances by discipline:
 
-Proposed Survey Outline
+* Life sciences & structural biology
+* Chemistry & materials discovery
+* Earth, climate & environmental science
+* Physics, astronomy & cosmology
+* Energy, engineering & manufacturing
+* Medicine & healthcare imaging & VQA
 
-Section 1 – Generic AI for Science
+---
 
-(core cross‑domain methodologies & scientific‑agent paradigms)
+## Reading List
 
-Physics‑informed & knowledge‑guided learning
+### 1 Road‑maps & Big‑Picture Overviews
 
-Geometric & equivariant deep learning
+| Year | Reference                                                         | Why it matters                           |
+| ---- | ----------------------------------------------------------------- | ---------------------------------------- |
+| 2025 | **“AI for Science 2025”** (Nature feature)                        | Snapshot of paradigm shift & challenges  |
+| 2024 | **“A New Golden Age of Discovery”** (DeepMind white‑paper)        | Five opportunity pillars                 |
+| 2023 | **“AI for Science: An Emerging Agenda”** (Berens et al.)          | Taxonomy & open questions                |
+| 2024 | **Physics‑Informed Neural Networks & Extensions** (Raissi et al.) | Survey of PINNs evolution                |
+| 2024 | **“From PINNs to PIKANs”** (Toscano et al.)                       | Future directions in physics‑informed ML |
 
-Neural operators & surrogate modeling
+### 2 Core Methodologies
 
-Foundation models & LLM agents for science
+#### 2.1 Physics‑Informed & Knowledge‑Guided Learning
 
-Automated experiment design & lab robotics
+* Raissi et al., 2019 – seminal PINNs paper (JCP 378)
+* Zhao et al., 2024 – PINNs for complex fluid dynamics (Phys. Fluids)
 
-Cross‑domain benchmarks, evaluation & interpretability
+#### 2.2 Graph Neural Networks (GNNs) for Molecules & Materials
 
-Section 2 – Domain‑Specific AI for Science
+* Defect diffusion GNN for high‑T energy materials (2024 ChemRxiv)
+* Derivative‑based pre‑training of GNNs for force‑field learning (RSC Digit. Discov.)
 
-(application‑focused advances organized by scientific discipline)
+#### 2.3 Geometric & Equivariant Deep Learning
 
-Life sciences & structural biology
+* Bronstein et al., 2021 – Geometric Deep Learning review
+* Schneideman‑Chenn et al., 2023 – E(3)‑equivariant networks
 
-Chemistry & materials discovery
+#### 2.4 Neural Operators & Surrogate Physics
 
-Earth, climate & environmental science
+* FourCastNet – global weather surrogate (Pathak et al., 2022)
+* WeatherNext – DeepMind 10‑day forecast model (2025)
 
-Physics, astronomy & cosmology
+#### 2.5 Foundation Models for Science
 
-Energy, engineering & manufacturing
+* NeurIPS 2024 workshop: Foundation Models for Science
+* Ramachandran et al., 2023 – Cross‑domain foundation models (AGU talk)
 
-Medicine & healthcare imaging & VQA
+### 3 Domain Breakthroughs
 
-Reading List
+| Area                  | Key Papers/Systems                                | Highlight                        |
+| --------------------- | ------------------------------------------------- | -------------------------------- |
+| Structural Biology    | AlphaFold 2 (2021); **AlphaFold 3** (Nature 2024) | Protein/RNA complex prediction   |
+| Materials Science     | **GNoME** (Nature 2023)                           | 2.2 M crystal predictions        |
+| Chemistry/Catalysis   | Open Catalyst 2024 & GemNet‑OC                    | Scalable catalyst discovery      |
+| Climate & Weather     | FourCastNet; WeatherNext                          | Neural operators beat NWP        |
+| High‑Energy Physics   | GraphNet tracking; plasma PINNs                   | Real‑time extreme‑regime control |
+| Astronomy & Cosmology | SimBIG; CosmoGAN                                  | Likelihood‑free inference        |
 
-1  Road‑maps & Big‑Picture Overviews
+### 4 Datasets & Benchmarks
 
-Year
+* Materials & Chemistry: Materials Project, OQMD, OC24, QM9, OC20
+* Biology: PDB, UniRef 50, AlphaFold DB, RNAcentral
+* Climate: ERA5, ClimateBench
+* Vision‑language: **VQA‑RAD** (radiology)
+* Cross‑discipline: ScienceBench, Holobot
 
-Reference
+### 5 Software & Frameworks
 
-Why it matters
+| Tool                            | Notes                    |
+| ------------------------------- | ------------------------ |
+| DeepXDE / SciANN / Modulus      | High‑level PINNs APIs    |
+| PyTorch Geometric / DGL‑LifeSci | GNN prototyping          |
+| JAX MD / Jraph                  | Differentiable MD in JAX |
+| ASE & Pymatgen                  | Materials workflows      |
 
-2025
+### 6 Conferences, Workshops & Community
 
-“AI for Science 2025” (Nature feature)
+* **NeurIPS AI4Science** (2021‑2025) & **AI4Mat‑2024**
+* **ICML Foundation Models for Science** (2024)
+* **Open Conference of AI Agents for Science** (2025)
+* **Nature Machine Intelligence – AI4S collection**
 
-Short industry‑oriented snapshot of the paradigm shift and emerging challenges.
+### 7 How to Stay Current
 
-2024
+1. Subscribe to arXiv: `cs.LG`, `physics.comp-ph`, `q-bio.BM`, `stat.ML`, `EarthComp`
+2. Newsletters: *DeepMind Science*, *NVIDIA Earth‑2*, *ML4Sci Digest*, *Matterverse*
+3. Slack/Discord: `ai4sciencecommunity`, `ml-physics`
+4. Podcasts: *DeepMind: The Podcast*, *ScienceML*, *Data Skeptic* (science tracks)
 
-“A New Golden Age of Discovery – Seizing the AI4S Opportunity” (DeepMind white‑paper)
+---
 
-Policy‑level report framing five opportunity pillars (knowledge, data, simulation, experimentation, solutions).
+## Contributing
 
-2023
+Contributions are welcome! Open an issue or PR with:
 
-“AI for Science: An Emerging Agenda” (Berens et al., arXiv 2303.04217)
+1. **Section** (e.g., Core Methodologies → PINNs)
+2. **Resource type** (paper / dataset / tool)
+3. **One‑line rationale**
 
-Academic roadmap; taxonomy of AI‑science intersections & open research questions.
+Please follow the existing structure.
 
-2024
+## License
 
-Physics‑Informed Neural Networks & Extensions (Raissi et al.)
-
-Compact survey of PINNs evolution, theory and software stacks.
-
-2024
-
-“From PINNs to PIKANs” (Toscano et al.)
-
-Latest advances and future directions in physics‑informed ML.
-
-2  Core Methodologies
-
-2.1  Physics‑Informed & Knowledge‑Guided Learning
-
-Raissi et al., 2019 – Seminal PINNs paper (JCP 378) – forward & inverse PDE solving.
-
-Zhao et al., 2024 – PINNs for complex fluid dynamics (Phys. Fluids).
-
-2.2  Graph Neural Networks (GNNs) for Molecules & Materials
-
-Defect diffusion GNN for high‑T energy materials (2024 ChemRxiv preprint).
-
-Derivative‑based pre‑training of GNNs for force‑field learning (RSC Digit. Discov.).
-
-2.3  Geometric & Equivariant Deep Learning
-
-Bronstein et al., 2021 – Geometric Deep Learning: Grids, Groups, Graphs… (review).
-
-Schneideman‑Chenn et al., 2023 – E(3)‑equivariant networks for atomistic simulation.
-
-2.4  Neural Operators & Surrogate Physics
-
-FourCastNet – global sub‑second weather surrogate (Pathak et al., 2022).
-
-WeatherNext – DeepMind’s 10‑day skill leader (2025).
-
-2.5  Foundation Models for Science
-
-NeurIPS 2024 workshop “Foundation Models for Science” – slides & proceedings.
-
-Ramachandran et al., 2023 – AGU talk on cross‑domain foundation models.
-
-3  Domain Breakthroughs
-
-Area
-
-Key Papers / Systems
-
-Highlight
-
-Structural Biology
-
-AlphaFold 2 (2021); AlphaFold 3 release (Nature 2024)
-
-Near‑ab initio prediction of protein & RNA complexes; open inference pipeline.
-
-Materials Science
-
-GNoME – 2.2 M crystal predictions (Nature 2023)
-
-Orders‑of‑magnitude expansion of stable materials space.
-
-Chemistry / Catalysis
-
-Open Catalyst 2024 dataset & GemNet‑OC; Diffusion models for molecule generation
-
-Open‑source benchmark and scalable catalyst discovery.
-
-Climate & Weather
-
-FourCastNet (NVIDIA) and WeatherNext (DeepMind)
-
-Neural operators beating traditional NWP baselines.
-
-High‑Energy Physics
-
-GraphNet tracking at LHC; PINNs for plasma control
-
-Real‑time reconstruction & control in extreme regimes.
-
-Astronomy & Cosmology
-
-SimBIG simulation‑based inference; CosmoGAN
-
-Likelihood‑free inference for large‑scale structure.
-
-4  Datasets & Benchmarks
-
-Materials & Chemistry: Materials Project, OQMD, Open Catalyst 2024, QM9, OC20.
-
-Biology: PDB (weekly), UniRef 50, AlphaFold DB, PDB70, RNAcentral.
-
-Climate: ERA5 reanalysis, ClimateBench.
-
-Vision‑language in Science: VQA‑RAD (2018) – radiology VQA (relevant to PMC‑VQA work).
-
-Cross‑discipline leaderboards: ScienceBench, Holobot.
-
-5  Software & Frameworks
-
-Tool
-
-Notes
-
-DeepXDE / SciANN / Modulus
-
-High‑level APIs for PINNs & PDE solving
-
-PyTorch Geometric / DGL‑LifeSci
-
-Rapid prototyping of GNNs on molecular graphs
-
-JAX MD / Jraph
-
-Differentiable molecular dynamics with JAX
-
-ASE & Pymatgen
-
-Programmatic materials workflows; integrates with GNoME outputs
-
-6  Conferences, Workshops & Community
-
-NeurIPS “AI for Science” series (2021‑2025) & AI4Mat‑2024 workshop.
-
-ICML “Foundation Models for Science” (2024).
-
-Open Conference of AI Agents for Science 2025 – fully AI‑authored venue.
-
-Nature Machine Intelligence “AI for Science” collection (ongoing special issue).
-
-7  How to Stay Current
-
-arXiv alerts: subscribe to cs.LG, physics.comp-ph, q-bio.BM, stat.ML, and EarthComp.
-
-Newsletters & Blogs: DeepMind Science, NVIDIA Earth‑2, ML4Sci digest, Matterverse.
-
-Slack / Discord: ai4sciencecommunity, ml-physics.
-
-Podcasts & YouTube: DeepMind: The Podcast, ScienceML, Data Skeptic (science tracks).
-
-Contributing
-
-Feel free to open issues or PRs to add papers, datasets, or tools. Please follow the existing section structure and include a brief one‑line rationale.
-
-License
-
-Creative Commons Attribution 4.0 International (CC‑BY‑4.0).
-
+Distributed under **CC‑BY‑4.0**.
