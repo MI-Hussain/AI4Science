@@ -1,7 +1,7 @@
 # AI for Science (AI4S) – Reading List & Survey Outline
 
 > **Last updated:** 17 Jul 2025
-> Curated resources and draft outline for an upcoming **ACM Computing Surveys** paper on the landscape of *Artificial Intelligence for Science*.
+> Curated resources and draft outline for an upcoming **Surveys** paper on the landscape of *Artificial Intelligence for Science*.
 
 ## Table of Contents
 
