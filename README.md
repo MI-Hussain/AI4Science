@@ -116,7 +116,7 @@
 
 ### 6 Conferences & Community
 
-* **ACL - AI Agents for Science (2021–2025)** – [https://neurips.cc/virtual/2025/events/workshop](https://neurips.cc/virtual/2025/events/workshop)
+* **ACL - AI Agents for Science (2021–2025)** – [https://neurips.cc/virtual/2025/events/workshop](https://2025.aclweb.org/program/main_papers/)
 * **NeurIPS AI4Science (2021–2025)** – [https://neurips.cc/virtual/2025/events/workshop](https://neurips.cc/virtual/2025/events/workshop)
 * **ICML 2024 – Foundation Models for Science** – [https://icml.cc/virtual/2024/workshop/20817](https://icml.cc/virtual/2024/workshop/20817)
 * **Open Conference of AI Agents for Science 2025** – [https://agents4science.stanford.edu](https://agents4science.stanford.edu)
