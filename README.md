@@ -3,6 +3,9 @@
 > **Last updated:** 20 Jul 2025
 > Curated resources and draft outline for an upcoming **Survey** paper on the landscape of *Artificial Intelligence for Science*. All references below are hyper‑linked for quick access.
 
+# Artificial Intelligence for Scientific Discovery: A Comprehensive Survey
+>Artificial intelligence (AI) is rapidly transforming scientific research, offering unprecedented capabilities in data analysis, prediction, and autonomous experimentation. This survey provides a comprehensive overview of AI's application in science, detailing core methodologies such as deep learning, reinforcement learning, generative models, symbolic AI, physics-informed neural networks, and graph neural networks. It examines major breakthroughs across materials discovery, drug design, climate modeling, and fundamental physics. The report also addresses critical challenges, including data scarcity, interpretability, reproducibility, and ethical considerations. Finally, it explores emerging trends like interdisciplinary AI, autonomous discovery systems, foundation models, and quantum AI, highlighting future directions for responsible and impactful scientific advancement.
+
 ## Table of Contents
 
 1. [Survey Outline](#survey-outline)
