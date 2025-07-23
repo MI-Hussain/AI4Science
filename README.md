@@ -141,7 +141,7 @@ Add this section to visualize your daily progress with a Mermaid timeline diagra
 
 ```mermaid
 timeline
-    title AI4S Survey – Daily Progress
+    title AI4S Survey – Weekly Progress
     2025-07-14 : 📝 Initial reading list (recent works 2024 & 2025) - Initial Draft
     2025-07-16 : 📝 First Meeting & baseline for (AI for Scientists)
     2025-07-18 : 📝 Github repository - AI4Science
@@ -152,7 +152,6 @@ timeline
 
 ```
 
-<details>
 <summary>📅 High‑Level Milestone Plan</summary>
 
 | Phase                     | Dates (2025)    | Deliverable            |
@@ -162,8 +161,6 @@ timeline
 | Writing Sprint            | Aug 26 – Sep 26 | Full draft             |
 | Internal Review           | Sep 29 – Oct 15 | Feedback incorporated  |
 | Journal Submission        | Oct 17          | Pre‑print & submission |
-
-</details>
 
 
 ## Contributing
