@@ -1,6 +1,6 @@
 # AI for Science (AI4S) – Reading List & Survey Outline
 
-> **Last updated:** 23 Jul 2025
+> **Last updated:** 23 Jul 2025
 > Curated resources and draft outline for an upcoming **Survey** paper on the landscape of *Artificial Intelligence for Science*. All references below are hyper‑linked for quick access.
 
 ---
@@ -8,7 +8,8 @@
 ## Table of Contents
 
 1. [Survey Outline](#survey-outline)
-2. [Reading List](#reading-list)
+2. [Related Work – History & Foundational Surveys](#related-work--history--foundational-surveys)
+3. [Reading List](#reading-list)
 
    1. [Road‑maps & Big‑Picture Overviews](#1-road-maps--big-picture-overviews)
    2. [Core Methodologies](#2-core-methodologies)
@@ -17,10 +18,10 @@
    5. [Software & Frameworks](#5-software--frameworks)
    6. [Conferences & Community](#6-conferences--community)
    7. [Staying Current](#7-staying-current)
-3. [Progress Timeline](#-progress-timeline)
-4. [High‑Level Milestone Plan](#summary-high-level-milestone-plan)
-5. [Contributing](#contributing)
-6. [License](#license)
+4. [Progress Timeline](#-progress-timeline)
+5. [High‑Level Milestone Plan](#summary-high-level-milestone-plan)
+6. [Contributing](#contributing)
+7. [License](#license)
 
 ---
 
@@ -50,18 +51,56 @@ Artificial intelligence (AI) is rapidly transforming scientific research, offeri
 
 ---
 
+## Related Work – History & Foundational Surveys
+
+### A. Historical Milestones
+
+| Year | Milestone                                             | Significance                                                           |
+| ---- | ----------------------------------------------------- | ---------------------------------------------------------------------- |
+| 1943 | McCulloch & Pitts artificial neuron                   | Lays the groundwork for modern neural networks                         |
+| 1950 | Turing “Computing Machinery & Intelligence”           | Introduces the Turing Test, sparking machine‑intelligence debate       |
+| 1956 | Dartmouth Conference – term **AI** coined             | Marks the official birth of the AI research field                      |
+| 1980 | Expert‑system **XCON** saves DEC \$20 M / yr          | First large‑scale commercial success of symbolic AI                    |
+| 1997 | **Deep Blue** defeats Kasparov                        | Demonstrates power of heuristic search & specialised hardware          |
+| 2012 | AlexNet wins ImageNet                                 | Kicks off the deep‑learning renaissance                                |
+| 2016 | **AlphaGo** beats Lee Sedol                           | Combines RL & deep nets to master Go                                   |
+| 2021 | **AlphaFold 2** attains near‑atomic protein precision | Catalyses the modern “AI for Science” wave                             |
+| 2023 | **GNoME** predicts 2.2 M stable crystals              | Materials discovery accelerated by orders of magnitude                 |
+| 2024 | **AlphaFold 3** extends to complexes                  | Integrates diffusion + Pairformer architectures                        |
+| 2025 | Autonomous labs & SciFMs on the rise                  | AI agents looped into experimentation & foundation models span domains |
+
+### B. Foundational Surveys & White‑Papers
+
+* **AI4Research: A Survey of Artificial Intelligence for Scientific Research** (arXiv 2507.01903, 2025) – taxonomy from idea‑mining to autonomous experimentation.
+* **“AI for Science 2025”** (*Nature* feature, 2025) – landscape snapshot & policy challenges.
+* **“A New Golden Age of Discovery – Seizing the AI4S Opportunity”** (DeepMind, 2024) – five pillars for applying foundation models to science.
+* **“AI for Science: An Emerging Agenda”** (Berens *et al.* 2023) – taxonomy & open questions.
+* **Physics‑Informed Neural Networks & Extensions** (Raissi *et al.* 2024) – comprehensive review of PINNs lineage.
+* **Geometric Deep Learning: A Blueprint** (Bronstein *et al.* 2021) – unifies symmetry principles across domains.
+
+<details>
+<summary>🔍 Key Concepts & Principles (concise)</summary>
+
+* **AI vs AI4S** – AI4S applies ML, DL, statistics & control specifically to *scientific* problems, emphasising experimental protocols & hypothesis generation.
+* **Augmentation over Autonomy** – current AI chiefly accelerates human scientists; fully independent discovery remains aspirational.
+* **Hybridisation Trend** – neuro‑symbolic AI, physics‑informed learning & graph networks combine data‑driven strength with formal knowledge for trust & extrapolation.
+
+</details>
+
+---
+
 ## Reading List
 
 ### 1 Road‑maps & Big‑Picture Overviews
 
-| Year | Reference                                                                                                                                                                                                      | Why it matters                                                                    |
-| ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 2025 | [**“AI for Science 2025”** (Nature feature)](https://www.nature.com/articles/d42473-025-00161-3)                                                                                                               | Snapshot of paradigm shift & challenges.  |
-| 2024 | [**“A New Golden Age of Discovery – Seizing the AI4S Opportunity”** (DeepMind white‑paper)](https://storage.googleapis.com/deepmind-media/DeepMind.com/Assets/Docs/a-new-golden-age-of-discovery_nov-2024.pdf) | Five opportunity pillars.                 |
+| Year | Reference                                                                                                                                                                                                      | Why it matters                            |
+| ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| 2025 | [**“AI for Science 2025”** (*Nature* feature)](https://www.nature.com/articles/d42473-025-00161-3)                                                                                                             | Snapshot of paradigm shift & challenges.  |
+| 2024 | [**“A New Golden Age of Discovery – Seizing the AI4S Opportunity”** (DeepMind white‑paper)](https://storage.googleapis.com/deepmind-media/DeepMind.com/Assets/Docs/a-new-golden-age-of-discovery_nov-2024.pdf) | Five opportunity pillars.                 |
 | 2024 | [**Physics‑Informed Neural Networks & Extensions** (Raissi *et al.*)](https://arxiv.org/abs/2408.16806)                                                                                                        | Survey of PINNs evolution.                |
-| 2024 | [**“From PINNs to PIKANs”** (Toscano *et al.*, arXiv 2410.13228)](https://arxiv.org/abs/2410.13228)                                                                                                            | Future directions in physics‑informed ML. |
-| 2023 | [**“AI for Science: An Emerging Agenda”** (Berens *et al.*, arXiv 2303.04217)](https://arxiv.org/abs/2303.04217)                                                                                               | Taxonomy & open questions.                |
-| 2020 | [**“The Automation of Science”** (King *et al.*, *Science* 324)](https://science.sciencemag.org/content/324/5923/85)                                                                                           | Classic manifesto for autonomous labs.                                            |
+| 2024 | [**“From PINNs to PIKANs”** (Toscano *et al.*)](https://arxiv.org/abs/2410.13228)                                                                                                                              | Future directions in physics‑informed ML. |
+| 2023 | [**“AI for Science: An Emerging Agenda”** (Berens *et al.*)](https://arxiv.org/abs/2303.04217)                                                                                                                 | Taxonomy & open questions.                |
+| 2020 | [**“The Automation of Science”** (King *et al.*, *Science* 324)](https://science.sciencemag.org/content/324/5923/85)                                                                                           | Classic manifesto for autonomous labs.    |
 
 ### 2 Core Methodologies
 
@@ -70,7 +109,7 @@ Artificial intelligence (AI) is rapidly transforming scientific research, offeri
 * [Raissi *et al.* 2019 – Seminal PINNs](https://www.sciencedirect.com/science/article/pii/S0021999118307125)
 * [Zhao *et al.* 2024 – Review of PINNs for fluid dynamics](https://pubs.aip.org/aip/pof/article/36/10/101301/3315125)
 * [Raissi *et al.* 2024 – "Physics‑Informed Neural Networks & Extensions"](https://arxiv.org/abs/2408.16806)
-* [Toscano *et al.* 2024 – "From PINNs to PIKANs"](https://arxiv.org/abs/2410.13228)
+* [Toscano *et al.* 2024 – "From PINNs to PIKANs"](https://arxiv.org/abs/2410.13228)
 
 #### 2.2 Graph Neural Networks (GNNs) for Molecules & Materials
 
@@ -108,11 +147,11 @@ Artificial intelligence (AI) is rapidly transforming scientific research, offeri
 
 ### 4 Datasets & Benchmarks
 
-* **Materials & Chemistry:** [Materials Project](https://materialsproject.org), [OQMD](https://oqmd.org), [OC20](https://opencatalystproject.org), [OC22](https://opencatalystproject.org/leaderboard_oc22.html)
+* **Materials & Chemistry:** [Materials Project](https://materialsproject.org), [OQMD](https://oqmd.org), [OC20](https://opencatalystproject.org), [OC22](https://opencatalystproject.org/leaderboard_oc22.html)
 * **Biology:** [PDB](https://www.rcsb.org), [UniRef 50](https://www.uniprot.org/help/uniref), [AlphaFold DB](https://alphafold.ebi.ac.uk), [RNAcentral](https://rnacentral.org)
-* **Climate:** [ERA5 Reanalysis](https://cds.climate.copernicus.eu/cdsapp#!/home), [ClimateBench](https://github.com/ClimateBench/ClimateBench)
-* **Vision‑Language:** [VQA‑RAD (2018)](https://huggingface.co/datasets/flaviagiammarino/vqa-rad)
-* **Cross‑discipline leaderboards:** [ScienceBench](https://sciencebench.github.io), [Holobot Challenge](https://github.com/holobot-ai)
+* **Climate:** [ERA5 Reanalysis](https://cds.climate.copernicus.eu/cdsapp#!/home), [ClimateBench](https://github.com/ClimateBench/ClimateBench)
+* **Vision‑Language:** [**VQA‑RAD** (2018)](https://huggingface.co/datasets/flaviagiammarino/vqa-rad)
+* **Cross‑discipline leaderboards:** [ScienceBench](https://sciencebench.github.io), [Holobot Challenge](https://github.com/holobot-ai)
 
 ### 5 Software & Frameworks
 
@@ -130,10 +169,10 @@ Artificial intelligence (AI) is rapidly transforming scientific research, offeri
 
 ### 6 Conferences & Community
 
-* **NeurIPS AI4Science (2021‑2025)** – [https://neurips.cc/virtual/2025/events/workshop](https://neurips.cc/virtual/2025/events/workshop)
-* **ICML 2024 – Foundation Models for Science** – [https://icml.cc/virtual/2024/workshop/20817](https://icml.cc/virtual/2024/workshop/20817)
-* **ACL – AI Agents for Science Track** – [https://2025.aclweb.org/program/main\_papers/](https://2025.aclweb.org/program/main_papers/)
-* **Open Conference of AI Agents for Science 2025** – [https://agents4science.stanford.edu](https://agents4science.stanford.edu)
+* **NeurIPS AI4Science (2021‑2025)** – [https://neurips.cc/virtual/2025/events/workshop](https://neurips.cc/virtual/2025/events/workshop)
+* **ICML 2024 – Foundation Models for Science** – [https://icml.cc/virtual/2024/workshop/20817](https://icml.cc/virtual/2024/workshop/20817)
+* **ACL – AI Agents for Science Track** – [https://2025.aclweb.org/program/main\_papers/](https://2025.aclweb.org/program/main_papers/)
+* **Open Conference of AI Agents for Science 2025** – [https://agents4science.stanford.edu](https://agents4science.stanford.edu)
 * **Nature Machine Intelligence – AI4S collection** – [https://www.nature.com/collections/cejcbdggdh](https://www.nature.com/collections/cejcbdggdh)
 
 ### 7 Staying Current
@@ -141,7 +180,7 @@ Artificial intelligence (AI) is rapidly transforming scientific research, offeri
 1. **arXiv alerts:** `cs.LG`, `physics.comp-ph`, `q-bio.BM`, `stat.ML`, `EarthComp`
 2. **Newsletters:** *DeepMind Science*, *NVIDIA Earth‑2*, *ML4Sci Digest*, *Matterverse*
 3. **Slack/Discord:** `ai4sciencecommunity`, `ml-physics`
-4. **Podcasts:** *DeepMind: The Podcast*, *ScienceML*, *Data Skeptic* (science tracks)
+4. **Podcasts:** *DeepMind: The Podcast*, *ScienceML*, *Data Skeptic* (science tracks)
 
 ---
 
@@ -159,15 +198,15 @@ timeline
     2025-07-25 : 🔄 Continuous updates
 ```
 
-### <Summary>📅 High‑Level Milestone Plan </Summary>
+### <summary>📅 High‑Level Milestone Plan</summary>
 
 | Phase                     | Dates (2025)    | Deliverable            |
 | ------------------------- | --------------- | ---------------------- |
-| Literature & Gap‑analysis | Jul 14 – Aug 14   | Annotated notes        |
-| Outline Freeze            | Aug 18 – Aug 25   | Locked survey outline  |
-| Writing Sprint            | Aug 26 – Sep 26   | Full draft             |
-| Internal Review           | Sep 29 – Oct 15   | Feedback incorporated  |
-| Journal Submission        | Oct 17           | Pre‑print & submission |
+| Literature & Gap‑analysis | Jul 14 – Aug 14 | Annotated notes        |
+| Outline Freeze            | Aug 18 – Aug 25 | Locked survey outline  |
+| Writing Sprint            | Aug 26 – Sep 26 | Full draft             |
+| Internal Review           | Sep 29 – Oct 15 | Feedback incorporated  |
+| Journal Submission        | Oct 17          | Pre‑print & submission |
 
 ---
 
