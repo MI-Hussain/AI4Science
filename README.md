@@ -135,6 +135,35 @@
 
 ---
 
+## 📆 Progress Timeline
+
+Add this section to visualize your daily progress with a Mermaid timeline diagram supported natively by GitHub.
+
+```mermaid
+timeline
+    title AI4S Survey – Daily Progress
+    2025-07-20 : 📝 Initial reading list
+    2025-07-21 : 📚 Added DeepMind white‑paper
+    2025-07-22 : ✏️ Drafted Survey Abstract
+    2025-07-23 : 🔄 Updated PINNs section
+```
+
+<details>
+<summary>📅 High‑Level Milestone Plan</summary>
+
+| Phase                     | Dates (2025)    | Deliverable            |
+| ------------------------- | --------------- | ---------------------- |
+| Literature & Gap‑analysis | Jul 20 – Aug 15 | Annotated notes        |
+| Outline Freeze            | Aug 16 – Aug 20 | Locked survey outline  |
+| Writing Sprint            | Aug 21 – Sep 25 | Full draft             |
+| Internal Review           | Sep 26 – Oct 05 | Feedback incorporated  |
+| Journal Submission        | Oct 15          | Pre‑print & submission |
+
+</details>
+
+> **How to update:** after each work session, append a new line under the `timeline` block in the form `YYYY-MM-DD : <emoji> <brief note>`.
+
+
 ## Contributing
 
 Open an issue or PR with:
