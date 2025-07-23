@@ -142,10 +142,14 @@ Add this section to visualize your daily progress with a Mermaid timeline diagra
 ```mermaid
 timeline
     title AI4S Survey – Daily Progress
-    2025-07-20 : 📝 Initial reading list
-    2025-07-21 : 📚 Added DeepMind white‑paper
-    2025-07-22 : ✏️ Drafted Survey Abstract
-    2025-07-23 : 🔄 Updated PINNs section
+    2025-07-14 : 📝 Initial reading list (recent works 2024 & 2025) - Initial Draft
+    2025-07-16 : 📝 First Meeting & baseline for (AI for Scientists)
+    2025-07-18 : 📝 Github repository - AI4Science
+    2025-07-21 : 📚 Added DeepMind & AI4Science white‑paper
+    2025-07-22 : ✏️ Drafted Survey outline & Abstract
+    2025-07-23 : 🔄 Updated outline with clear milestone plan section
+    2025-07-25 : 🔄 Continuous update on going
+
 ```
 
 <details>
@@ -153,15 +157,13 @@ timeline
 
 | Phase                     | Dates (2025)    | Deliverable            |
 | ------------------------- | --------------- | ---------------------- |
-| Literature & Gap‑analysis | Jul 20 – Aug 15 | Annotated notes        |
-| Outline Freeze            | Aug 16 – Aug 20 | Locked survey outline  |
-| Writing Sprint            | Aug 21 – Sep 25 | Full draft             |
-| Internal Review           | Sep 26 – Oct 05 | Feedback incorporated  |
-| Journal Submission        | Oct 15          | Pre‑print & submission |
+| Literature & Gap‑analysis | Jul 14 – Aug 14 | Annotated notes        |
+| Outline Freeze            | Aug 18 – Aug 25 | Locked survey outline  |
+| Writing Sprint            | Aug 26 – Sep 26 | Full draft             |
+| Internal Review           | Sep 29 – Oct 15 | Feedback incorporated  |
+| Journal Submission        | Oct 17          | Pre‑print & submission |
 
 </details>
-
-> **How to update:** after each work session, append a new line under the `timeline` block in the form `YYYY-MM-DD : <emoji> <brief note>`.
 
 
 ## Contributing
