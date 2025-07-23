@@ -55,19 +55,19 @@ Artificial intelligence (AI) is rapidly transforming scientific research, offeri
 
 ### A. Historical Milestones
 
-| Year | Milestone                                             | Significance                                                           |
-| ---- | ----------------------------------------------------- | ---------------------------------------------------------------------- |
-| 1943 | McCulloch & Pitts artificial neuron                   | Lays the groundwork for modern neural networks                         |
-| 1950 | Turing “Computing Machinery & Intelligence”           | Introduces the Turing Test, sparking machine‑intelligence debate       |
-| 1956 | Dartmouth Conference – term **AI** coined             | Marks the official birth of the AI research field                      |
-| 1980 | Expert‑system **XCON** saves DEC \$20 M / yr          | First large‑scale commercial success of symbolic AI                    |
-| 1997 | **Deep Blue** defeats Kasparov                        | Demonstrates power of heuristic search & specialised hardware          |
-| 2012 | AlexNet wins ImageNet                                 | Kicks off the deep‑learning renaissance                                |
-| 2016 | **AlphaGo** beats Lee Sedol                           | Combines RL & deep nets to master Go                                   |
-| 2021 | **AlphaFold 2** attains near‑atomic protein precision | Catalyses the modern “AI for Science” wave                             |
-| 2023 | **GNoME** predicts 2.2 M stable crystals              | Materials discovery accelerated by orders of magnitude                 |
-| 2024 | **AlphaFold 3** extends to complexes                  | Integrates diffusion + Pairformer architectures                        |
-| 2025 | Autonomous labs & SciFMs on the rise                  | AI agents looped into experimentation & foundation models span domains |
+| Year | Milestone                                                                                                                                  | Significance                                                           |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
+| 1943 | [McCulloch & Pitts artificial neuron](https://doi.org/10.1007/BF02478259)                                                                  | Lays the groundwork for modern neural networks                         |
+| 1950 | [Turing “Computing Machinery & Intelligence”](https://academic.oup.com/mind/article/LIX/236/433/986238)                                    | Introduces the Turing Test, sparking machine‑intelligence debate       |
+| 1956 | [Dartmouth Workshop – term **AI** coined](https://en.wikipedia.org/wiki/Dartmouth_workshop)                                                | Marks the official birth of the AI research field                      |
+| 1980 | [Expert‑system **XCON**](https://dl.acm.org/doi/10.1145/358141.358146) saves DEC \$20 M / yr                                               | First large‑scale commercial success of symbolic AI                    |
+| 1997 | [**Deep Blue** defeats Kasparov](https://www.ibm.com/ibm/history/ibm100/us/en/icons/deepblue/)                                             | Demonstrates power of heuristic search & specialised hardware          |
+| 2012 | [AlexNet wins ImageNet](https://papers.nips.cc/paper/2012/hash/c399862d3b914fd9bb06d7b3e5c3b9a0-Abstract.html)                             | Kicks off the deep‑learning renaissance                                |
+| 2016 | [**AlphaGo** beats Lee Sedol](https://www.nature.com/articles/nature16961)                                                                 | Combines RL & deep nets to master Go                                   |
+| 2021 | [**AlphaFold 2**](https://www.nature.com/articles/s41586-021-03819-2) attains near‑atomic protein precision                                | Catalyses the modern “AI for Science” wave                             |
+| 2023 | [**GNoME** predicts 2.2 M stable crystals](https://deepmind.google/discover/blog/millions-of-new-materials-discovered-with-deep-learning/) | Materials discovery accelerated by orders of magnitude                 |
+| 2024 | [**AlphaFold 3**](https://www.nature.com/articles/d41586-024-03708-4) extends to complexes                                                 | Integrates diffusion + Pairformer architectures                        |
+| 2025 | [Autonomous labs & SciFMs on the rise](https://news.uchicago.edu/story/ai-driven-autonomous-lab-argonne-transforms-materials-discovery)    | AI agents looped into experimentation & foundation models span domains |
 
 ### B. Foundational Surveys & White‑Papers
 
@@ -150,7 +150,7 @@ Artificial intelligence (AI) is rapidly transforming scientific research, offeri
 * **Materials & Chemistry:** [Materials Project](https://materialsproject.org), [OQMD](https://oqmd.org), [OC20](https://opencatalystproject.org), [OC22](https://opencatalystproject.org/leaderboard_oc22.html)
 * **Biology:** [PDB](https://www.rcsb.org), [UniRef 50](https://www.uniprot.org/help/uniref), [AlphaFold DB](https://alphafold.ebi.ac.uk), [RNAcentral](https://rnacentral.org)
 * **Climate:** [ERA5 Reanalysis](https://cds.climate.copernicus.eu/cdsapp#!/home), [ClimateBench](https://github.com/ClimateBench/ClimateBench)
-* **Vision‑Language:** [**VQA‑RAD** (2018)](https://huggingface.co/datasets/flaviagiammarino/vqa-rad)
+* **Vision‑Language (medical & scientific):** [VQA‑RAD (2018)](https://huggingface.co/datasets/flaviagiammarino/vqa-rad), [PathVQA (2020)](https://github.com/StanfordAI4HI/PathVQA), [PMC‑VQA (2023)](https://huggingface.co/datasets/SanjiwanJ/pmc_vqa), [ScienceQA (2023)](https://github.com/lupantech/ScienceQA), [ChartQA (2022)](https://github.com/VisInf/ChartQA), [MIMIC‑CXR (image‑report) 2019](https://physionet.org/content/mimic-cxr/2.0.0/), [IU X‑Ray (2015)](https://openi.nlm.nih.gov/faq)
 * **Cross‑discipline leaderboards:** [ScienceBench](https://sciencebench.github.io), [Holobot Challenge](https://github.com/holobot-ai)
 
 ### 5 Software & Frameworks
