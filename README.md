@@ -111,7 +111,7 @@ Artificial intelligence (AI) is rapidly transforming scientific research, offeri
 * **Materials & Chemistry:** [Materials Project](https://materialsproject.org), [OQMD](https://oqmd.org), [OC20](https://opencatalystproject.org), [OC22](https://opencatalystproject.org/leaderboard_oc22.html)
 * **Biology:** [PDB](https://www.rcsb.org), [UniRef 50](https://www.uniprot.org/help/uniref), [AlphaFold DB](https://alphafold.ebi.ac.uk), [RNAcentral](https://rnacentral.org)
 * **Climate:** [ERA5 Reanalysis](https://cds.climate.copernicus.eu/cdsapp#!/home), [ClimateBench](https://github.com/ClimateBench/ClimateBench)
-* **Vision‑Language:** [**VQA‑RAD** (2018)](https://huggingface.co/datasets/flaviagiammarino/vqa-rad)
+* **Vision‑Language:** [VQA‑RAD (2018)](https://huggingface.co/datasets/flaviagiammarino/vqa-rad)
 * **Cross‑discipline leaderboards:** [ScienceBench](https://sciencebench.github.io), [Holobot Challenge](https://github.com/holobot-ai)
 
 ### 5 Software & Frameworks
