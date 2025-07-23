@@ -152,7 +152,7 @@ timeline
 
 ```
 
-<summary>📅 High‑Level Milestone Plan</summary>
+### <summary>📅 High‑Level Milestone Plan</summary>
 
 | Phase                     | Dates (2025)    | Deliverable            |
 | ------------------------- | --------------- | ---------------------- |
