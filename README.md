@@ -159,7 +159,7 @@ timeline
     2025-07-25 : 🔄 Continuous updates
 ```
 
-### <summary>📅 High‑Level Milestone Plan</summary>
+### <Summary>📅 High‑Level Milestone Plan </Summary>
 
 | Phase                     | Dates (2025)    | Deliverable            |
 | ------------------------- | --------------- | ---------------------- |
