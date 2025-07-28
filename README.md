@@ -57,12 +57,6 @@ Artificial intelligence (AI) is rapidly transforming scientific research, offeri
 
 | Year | Milestone                                                                                                                                  | Significance                                                           |
 | ---- | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
-| 1943 | [McCulloch & Pitts artificial neuron](https://doi.org/10.1007/BF02478259)                                                                  | Lays the groundwork for modern neural networks                         |
-| 1950 | [Turing “Computing Machinery & Intelligence”](https://academic.oup.com/mind/article/LIX/236/433/986238)                                    | Introduces the Turing Test, sparking machine‑intelligence debate       |
-| 1956 | [Dartmouth Workshop – term **AI** coined](https://en.wikipedia.org/wiki/Dartmouth_workshop)                                                | Marks the official birth of the AI research field                      |
-| 1980 | [Expert‑system **XCON**](https://dl.acm.org/doi/10.1145/358141.358146) saves DEC \$20 M / yr                                               | First large‑scale commercial success of symbolic AI                    |
-| 1997 | [**Deep Blue** defeats Kasparov](https://www.ibm.com/ibm/history/ibm100/us/en/icons/deepblue/)                                             | Demonstrates power of heuristic search & specialised hardware          |
-| 2012 | [AlexNet wins ImageNet](https://papers.nips.cc/paper/2012/hash/c399862d3b914fd9bb06d7b3e5c3b9a0-Abstract.html)                             | Kicks off the deep‑learning renaissance                                |
 | 2016 | [**AlphaGo** beats Lee Sedol](https://www.nature.com/articles/nature16961)                                                                 | Combines RL & deep nets to master Go                                   |
 | 2021 | [**AlphaFold 2**](https://www.nature.com/articles/s41586-021-03819-2) attains near‑atomic protein precision                                | Catalyses the modern “AI for Science” wave                             |
 | 2023 | [**GNoME** predicts 2.2 M stable crystals](https://deepmind.google/discover/blog/millions-of-new-materials-discovered-with-deep-learning/) | Materials discovery accelerated by orders of magnitude                 |
