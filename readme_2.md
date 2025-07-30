@@ -132,6 +132,9 @@ timeline
     2025-07-14 : 📝 Initial FM reading list
     2025-07-23 : 🔄 Scope narrowed to foundation models
     2025-07-30 : 📚 Added Aurora, IntFold, WeatherNext
+
+
+
 High‑Level Milestone Plan
 Phase	Dates (2025)	Deliverable
 Gap‑analysis	Jul 30 – Aug 10	Annotated FM taxonomy
