@@ -1,4 +1,4 @@
-# AI for Science (AI4S) – Reading List & Survey Outline
+ # AI for Science (AI4S) – Reading List & Survey Outline
 
 > **Last updated:** 23 Jul 2025
 > Curated resources and draft outline for an upcoming **Survey** paper on the landscape of *Artificial Intelligence for Science*. All references below are hyper‑linked for quick access.
@@ -192,8 +192,9 @@ timeline
     2025-07-18 : 📝 GitHub repo created
     2025-07-21 : 📚 Added DeepMind white‑paper & Nature feature
     2025-07-22 : ✏️ Drafted survey outline & abstract
-    2025-07-23 : 🔄 Incorporated agent‑trend; refined reading list
-    2025-07-25 : 🔄 Continuous updates
+    2025-07-23 : 🔄 2nd Meeting with Center Director
+    2025-07-25 : ✏️ Incorporated agent‑trend; refined reading list
+    2025-07-29 : 🔄 Continuous updates
 ```
 
 ### <summary>📅 High‑Level Milestone Plan</summary>
