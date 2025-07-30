@@ -132,3 +132,38 @@ timeline
     2025-07-14 : 📝 Initial FM reading list
     2025-07-23 : 🔄 Scope narrowed to foundation models
     2025-07-30 : 📚 Added Aurora, IntFold, WeatherNext
+High‑Level Milestone Plan
+Phase	Dates (2025)	Deliverable
+Gap‑analysis	Jul 30 – Aug 10	Annotated FM taxonomy
+Outline Freeze	Aug 18 – Aug 25	Locked FM‑centric outline
+Writing Sprint	Aug 26 – Sep 26	Full draft
+Internal Review	Sep 29 – Oct 15	Consolidated feedback
+Submission	Oct 17	Pre‑print & journal submission
+
+Contributing
+Please open an issue or PR with:
+
+Section (e.g., Earth‑System → Aurora)
+
+Resource type (paper / dataset / tool)
+
+One‑line rationale
+
+License
+Creative Commons Attribution 4.0 International (CC‑BY‑4.0)
+
+markdown
+Copy
+
+---
+
+### What changed?
+
+* **Scope trimmed** to foundation models; non‑FM methodology sections (PINNs, GNNs, etc.) were removed.  
+* **Timeline** now highlights eight core SciFM milestones with citations.  
+* **Reading list** reorganised by domain‑specific SciFMs.  
+* Added **Aurora, WeatherNext, IntFold, Prithvi WxC** and **Galactica** entries.  
+* Updated **frameworks** table to emphasise FM training/deployment stacks.
+
+Feel free to adjust naming, add your own models, or reinstate earlier sections if still relevant.
+::contentReference[oaicite:20]{index=20}
