@@ -133,9 +133,9 @@ timeline
     2025-07-23 : 🔄 Scope narrowed to foundation models
     2025-07-30 : 📚 Added Aurora, IntFold, WeatherNext
 
+---
 
-
-High‑Level Milestone Plan
+## High‑Level Milestone Plan
 Phase	Dates (2025)	Deliverable
 Gap‑analysis	Jul 30 – Aug 10	Annotated FM taxonomy
 Outline Freeze	Aug 18 – Aug 25	Locked FM‑centric outline
