@@ -194,7 +194,8 @@ timeline
     2025-07-22 : ✏️ Drafted survey outline & abstract
     2025-07-23 : 🔄 2nd Meeting with Center Director
     2025-07-25 : ✏️ Incorporated agent‑trend; refined reading list
-    2025-07-29 : 🔄 Continuous updates
+    2025-07-29 : 📝 Continuous updates
+    2025-07-31 : 🔄 3rd Meeting material ready
 ```
 
 ### <summary>📅 High‑Level Milestone Plan</summary>
