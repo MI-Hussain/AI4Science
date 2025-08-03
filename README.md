@@ -38,7 +38,7 @@ Artificial intelligence (AI) is rapidly transforming scientific research, offeri
 - **1.1** Defining AI for Science: Scope and Foundational Principles  
 - **1.2** Historical Evolution of AI in Scientific Research  
 - **1.3** Motivation and Contribution of This Survey
--
+
  #### 1.1 Generic AI for Science
 
 * Physics‑informed & knowledge‑guided learning
