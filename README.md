@@ -210,6 +210,7 @@ Artificial intelligence (AI) is rapidly transforming scientific research, offeri
 * **ACL – AI Agents for Science Track** – [https://2025.aclweb.org/program/main\_papers/](https://2025.aclweb.org/program/main_papers/)
 * **Open Conference of AI Agents for Science 2025** – [https://agents4science.stanford.edu](https://agents4science.stanford.edu)
 * **Nature Machine Intelligence – AI4S collection** – [https://www.nature.com/collections/cejcbdggdh](https://www.nature.com/collections/cejcbdggdh)
+* **SCI‑FM: Open Science for Foundation Models (ICLR 2025 Workshop)** – https://open-foundation-model.github.io/ – promotes transparency, reproducibility, and open‑source sharing in foundation models
 
 ### 7 Staying Current
 
