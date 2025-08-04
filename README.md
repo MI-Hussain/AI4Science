@@ -101,7 +101,7 @@ Artificial intelligence (AI) is rapidly transforming scientific research, offeri
 | 2024 | [**AlphaFold 3**](https://www.nature.com/articles/d41586-024-03708-4) extends to complexes                                                 | Integrates diffusion + Pairformer architectures                        |
 | 2025 | [**Autonomous labs** Univ of Chicago](https://news.uchicago.edu/story/ai-driven-autonomous-lab-argonne-transforms-materials-discovery)    | AI agents looped into experimentation & foundation models span domains |
 | 2025 | [**AI Co-scientist**](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/)    | AI co-scientist, a multi-agent AI system built with Gemini 2.0 |
-| 2025 | [AlphaGo Moment for Model Architecture Discovery](https://arxiv.org/pdf/2507.18074)    | Artificial Superintelligence for AI research (ASI4AI) - Scaling Law for Scientific Discovery |
+| 2025 | [**AlphaGo Moment** for Model Architecture Discovery](https://arxiv.org/pdf/2507.18074)    | Artificial Superintelligence for AI research (ASI4AI) - Scaling Law for Scientific Discovery |
 
 
 
