@@ -246,7 +246,7 @@ timeline
 | Outline Freeze            | Aug 18 – Aug 25 | Locked survey outline  |
 | Writing Sprint            | Aug 26 – Sep 26 | Full draft             |
 | Internal Review           | Sep 29 – Oct 15 | Feedback incorporated  |
-| Journal Submission        | Oct 17          | Pre‑print & submission |
+| Submission                | Oct 17          | Pre‑print & submission |
 
 ---
 
