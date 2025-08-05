@@ -180,7 +180,7 @@ Artificial intelligence (AI) is rapidly transforming scientific research, offeri
 | Climate & Weather     | [FourCastNet](https://arxiv.org/abs/2202.11214); [WeatherNext](https://deepmind.google/science/weathernext/)                | Neural operators beat traditional NWP.                 |
 | Fundamental Physics   | [GraphNet tracking at LHC (Elabd *et al.* 2021)](https://arxiv.org/abs/2112.02048)                                          | Real‑time particle track finding.                      |
 | Astronomy & Cosmology | [SimBIG 2023](https://arxiv.org/abs/2310.15256); [CosmoGAN](https://arxiv.org/abs/1706.02390)                               | Simulation‑based inference & generative LSS.           |
-| AI Research |	[ASI‑Arch](https://arxiv.org/abs/2507.18074) |	Autonomous architecture discovery signals an “AlphaGo moment” for AI research |
+| AI Research |	[**ASI‑Arch**](https://arxiv.org/abs/2507.18074) |	Autonomous architecture discovery signals an “AlphaGo moment” for AI research |
 
 ### 4 Datasets & Benchmarks
 
