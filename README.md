@@ -39,7 +39,7 @@ Artificial intelligence (AI) is rapidly transforming scientific research, offeri
 - **1.2** Historical Evolution of AI in Scientific Research  
 - **1.3** Motivation and Contribution of This Survey
 
- #### 1.1 Generic AI for Science
+ #### 1.1.1 Generic AI for Science
 
 * Physics‑informed & knowledge‑guided learning
 * Geometric & equivariant deep learning
@@ -48,7 +48,7 @@ Artificial intelligence (AI) is rapidly transforming scientific research, offeri
 * Automated experiment design & lab robotics
 * Benchmarks, evaluation & interpretability
 
-#### 1.2 Domain‑Specific AI for Science
+#### 1.1.2 Domain‑Specific AI for Science
 
 * Life sciences & structural biology
 * Chemistry & materials discovery
